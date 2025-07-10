@@ -11,7 +11,7 @@ app.use(express.json());
 //import routes for TODO API
 const todoRoutes = require("./routes/todos");
 
-//mount the todo ASPI routes
+//mount the todo APIs routes
 app.use("/api/v1", todoRoutes);
 
 //start server
